@@ -1,4 +1,6 @@
 module "vpc" {
-  source = "https://github.com/Maheedhar-Atmakuru/tf-module-vpc.git?ref=main"
+  source = "./vendor/modules/vpc/"      #Terrafile clones the backend modules and keeps it local 
+  VPC_CIDR = var.VPC_CIDR
+  PUBLIC_SUBNET_CIDR = var.PUBLIC_SUBNET_CIDR
+  PRIVATE_SUBNET_CIDR = var.PRIVATE_SUBNET_CIDR
 }
-
