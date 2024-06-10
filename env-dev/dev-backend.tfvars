@@ -1,3 +1,3 @@
-bucket = "b57-tf-state-bucket"
-key    = "dev/datasource/terraform.tfstate"
+bucket = "b57-tf-state-bucket-mahi"
+key    = "dev/terraform.tfstate"
 region = "us-east-1"
