@@ -5,4 +5,5 @@ module "vpc" {
   PRIVATE_SUBNET_CIDR = var.PRIVATE_SUBNET_CIDR
   ENV = var.ENV
   AZ = var.AZ
+  DEFAULT_VPC_CIDR = var.DEFAULT_VPC_CIDR
 }
